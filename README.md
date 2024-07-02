@@ -98,8 +98,6 @@ Each endpoint fetches data from the SpaceX API, generates a trivia question usin
 ## Project Structure
 
 - **src/**: Contains the Svelte components and front-end logic.
-  - **components/**: Individual Svelte components for the game.
-  - **routes/**: Svelte routes for different pages of the game.
 - **public/**: Static files.
 - **server.cjs**: Node.js server file that handles API requests.
 - **.env**: Environment variables file (not included in the repository, must be created).
