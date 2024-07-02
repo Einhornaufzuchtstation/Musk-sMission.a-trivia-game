@@ -81,7 +81,7 @@ By default, the game runs on `http://localhost:5000`. If the port is occupied or
 
 The server provides several endpoints for generating trivia questions:
 
-- **Actual Question**: `/api/question
+- **Actual Question**: `/api/question`
 - **Generated Questions History**: `/api/questions`
 
 The **Generated Questions History** endpoint provides a human-readable output of all generated questions.
