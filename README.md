@@ -1,8 +1,8 @@
-# SpaceX Trivia Game
+# SpaceX Trivia Game 🚀
 
 This is a SpaceX-themed trivia game that tests your knowledge about SpaceX capsules, missions, rockets, and ships. The game features multiple levels, each with a different category of questions. This project is built using Svelte for the front end and Node.js with Express for the back end.
 
-## Features
+## Features 🔮
 
 - **Multiple Levels**: Trivia questions about SpaceX capsules, missions, rockets, and ships.
 - **Dynamic Questions**: Questions are dynamically generated using OpenAI's GPT-3.5 API.
@@ -11,14 +11,14 @@ This is a SpaceX-themed trivia game that tests your knowledge about SpaceX capsu
 - **Responsive Design**: Works well on both desktop and mobile devices.
 - **Confetti Celebration**: Enjoy a confetti celebration for correct answers.
 
-## Installation
+## Installation 🦉
 
-### Prerequisites
+### Prerequisites 🦉
 
 - Node.js (v14 or later)
 - npm (v6 or later)
 
-### Packages Needed
+### Packages Needed 🦉
 
 Make sure you have the following npm packages installed:
 
@@ -37,7 +37,7 @@ npm install express axios cors dotenv
 npm install --save svelte svelte-spa-router canvas-confetti
 ```
 
-### Getting Started
+### Getting Started 🪐
 
 1. Clone the repository:
 
@@ -73,11 +73,11 @@ In another terminal window, run:
 npm run dev
 ```
 
-### Running the Game
+### Running the Game 🚀
 
 By default, the game runs on `http://localhost:5000`. If the port is occupied or you need to run it on a different port, you can configure it accordingly.
 
-## API Endpoints
+## API Endpoints 🔮
 
 The server provides several endpoints for generating trivia questions:
 
@@ -88,23 +88,23 @@ The **Generated Questions History** endpoint provides a human-readable output of
 
 Each endpoint fetches data from the SpaceX API, generates a trivia question using the OpenAI API, and returns a question with three answer options.
 
-### How the API Works
+### How the API Works 🦉
 
 1. **Fetching Data**: Each API endpoint fetches relevant data from the SpaceX API.
 2. **Generating Questions**: A trivia question is generated using the OpenAI API based on the fetched data.
 3. **Formatting Answers**: The answers are shuffled and formatted without prefixes.
 4. **Responding to Requests**: The generated question, correct answer, and answer options are sent back as a JSON response.
 
-## Project Structure
+## Project Structure 🔮
 
 - **src/**: Contains the Svelte components and front-end logic.
 - **public/**: Static files.
 - **server.cjs**: Node.js server file that handles API requests.
 - **.env**: Environment variables file (not included in the repository, must be created).
 
-## Usage
+## Usage 🔮
 
-### Starting the Server
+### Starting the Server 🚀
 
 To start the server, run:
 
@@ -114,7 +114,7 @@ node server.cjs
 
 This command starts the backend server which listens on port 3000 by default.
 
-### Starting the Frontend
+### Starting the Frontend 🔮
 
 To start the frontend development server, run:
 
@@ -124,7 +124,7 @@ npm run dev
 
 This command starts the frontend development server which listens on port 5000 by default.
 
-### Accessing the Game
+### Accessing the Game 🪐
 
 Open your web browser and navigate to:
 
@@ -132,7 +132,7 @@ Open your web browser and navigate to:
 http://localhost:5000
 ```
 
-### Accessing the API
+### Accessing the API 🔮
 
 To access the generated questions, you can use the following endpoint:
 
@@ -142,7 +142,7 @@ http://localhost:3000/api/questions
 
 This endpoint provides a human-readable output of all generated questions.
 
-## License
+## License 🦉
 
 This project is licensed under the EULA License.
 
