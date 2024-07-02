@@ -1,4 +1,4 @@
-# SpaceX Trivia Game 🚀
+# SpaceX Trivia Game 🚀 Musk's Mission 🪐
 
 This is a SpaceX-themed trivia game that tests your knowledge about SpaceX capsules, missions, rockets, and ships. The game features multiple levels, each with a different category of questions. This project is built using Svelte for the front end and Node.js with Express for the back end.
 
