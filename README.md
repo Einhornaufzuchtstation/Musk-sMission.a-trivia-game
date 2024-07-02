@@ -43,7 +43,6 @@ npm install --save svelte svelte-spa-router canvas-confetti
 
 ```bash
 git clone https://github.com/Einhornaufzuchtstation/Musk-sMission.a-trivia-game.git
-cd Musk-sMission.a-trivia-game
 ```
 
 2. Install the dependencies:
